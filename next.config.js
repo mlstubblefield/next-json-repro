@@ -8,6 +8,10 @@ const config = {
         source: "/something",
         destination: "/",
       },
+      {
+        source: "/whatever/:slug*",
+        destination: "/:slug*"
+      }
     ];
   },
 };
