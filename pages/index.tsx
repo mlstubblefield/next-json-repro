@@ -5,5 +5,8 @@ export default function Home() {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  throw new Error("boop");
+  // throw new Error("boop");
+  return {
+     props:{}
+  }
 };
