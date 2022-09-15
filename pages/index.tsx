@@ -2,7 +2,7 @@ import { GetServerSideProps } from "next";
 import { useEffect, useState } from "react";
 
 export default function Home({hi}) {
-  const [st, setSt] = useState()
+  const [st, setSt] = useState("")
 
   useEffect(() => {
     setSt(" once was a man named banana")
