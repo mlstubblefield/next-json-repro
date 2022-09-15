@@ -2,12 +2,14 @@
 const config = {
   productionBrowserSourceMaps: true,
   async rewrites(){
-    return [
-      {
-        source: "/",
-        destination: "/1",
-      }
-    ]
+    return {
+      beforeFiles:  [
+        {
+          source: "/",
+          destination: "/1",
+        }
+      ]
+    }
   }
 };
 
