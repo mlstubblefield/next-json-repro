@@ -4,7 +4,7 @@ export default function Home({hi, something}) {
   return <div>
     <h1>hi {hi} {something}.</h1>
     <div>
-      <Link href={`/${parseInt(something??0)+1}`} passHref><a>Next!</a></Link>
+      {/* <Link href={`/${parseInt(something??0)+1}`} passHref><a>Next!</a></Link> */}
     </div>
   </div>;
 }
